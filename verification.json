@@ -1,0 +1,135 @@
+{
+  "artifact": "力量传奇 JBS / Muscle Legends annotated source v4",
+  "naming_and_comments": {
+    "baseline_sha256": "6d57abb0eda4d240fed2bdcc253cc0f666129f1c9db650a8140b325b10540147",
+    "output_sha256": "665b71a6b8183ece0174647fc6431ce8d73e69ff94b1c1d3a91edbaed7f89858",
+    "bytes": 196221,
+    "lines": 5971,
+    "total_local_bindings": 1436,
+    "renamed_bindings": 1158,
+    "name_categories": {
+      "reviewed_semantics": 164,
+      "inferred_data_flow": 729,
+      "neutral_technical": 265
+    },
+    "added_comment_blocks": 57,
+    "alpha_equivalence": true,
+    "alpha_equivalence_excludes": [
+      "source locations",
+      "function debug names",
+      "lexical local names; binding identity retained"
+    ],
+    "canonical_ast_sha256": "f13dcd1e622a51abac7645c349aaef5b5d95c8a9fd6013d310fe0ed5186cd797",
+    "globals_unchanged": true,
+    "global_references": {
+      "CFrame": 26,
+      "Color3": 1,
+      "Enum": 6,
+      "Instance": 13,
+      "UDim2": 1,
+      "Vector2": 2,
+      "Vector3": 31,
+      "_G": 11,
+      "coroutine": 3,
+      "fireclickdetector": 2,
+      "fireproximityprompt": 1,
+      "firetouchinterest": 12,
+      "game": 15,
+      "getgenv": 3,
+      "gethui": 2,
+      "ipairs": 31,
+      "loadstring": 1,
+      "math": 9,
+      "next": 1,
+      "os": 2,
+      "pairs": 7,
+      "pcall": 42,
+      "select": 33,
+      "setclipboard": 3,
+      "string": 17,
+      "table": 265,
+      "task": 93,
+      "tonumber": 7,
+      "typeof": 1,
+      "workspace": 1
+    },
+    "original_names_or_comments_recovered": false
+  },
+  "compile": {
+    "tool": "Luau 0.740 official compiler",
+    "success": true
+  },
+  "offline_models": {
+    "immediate": {
+      "equal_after_documented_normalization": true,
+      "old_lines": 27554,
+      "new_lines": 27554,
+      "normalization": "Drop proto annotations; normalize VM error wrappers/line numbers and logger-generated connection, descendant, Folder, HttpService, RunService suffixes; omit a redundant RunService local declaration. All operations and error messages retained."
+    },
+    "deferred": {
+      "equal_after_documented_normalization": true,
+      "old_lines": 23939,
+      "new_lines": 23939,
+      "normalization": "Drop proto annotations; normalize VM error wrappers/line numbers and logger-generated connection, descendant, Folder, HttpService, RunService suffixes; omit a redundant RunService local declaration. All operations and error messages retained."
+    },
+    "ordered_business_checks": {
+      "http_requests": {
+        "equal": true,
+        "old_count": 1,
+        "new_count": 1
+      },
+      "ui_title": {
+        "equal": true,
+        "old_count": 159,
+        "new_count": 159
+      },
+      "ui_desc": {
+        "equal": true,
+        "old_count": 12,
+        "new_count": 12
+      },
+      "services": {
+        "equal": true,
+        "old_count": 5,
+        "new_count": 5
+      },
+      "remote_operations": {
+        "equal": true,
+        "old_count": 114,
+        "new_count": 114
+      },
+      "callback_definitions": {
+        "equal": true,
+        "old_count": 104,
+        "new_count": 104
+      }
+    },
+    "scope": "Bounded offline models. Existing model errors are retained on both sides; this is neither exhaustive coverage nor proof of real-game compatibility."
+  },
+  "game_verification": {
+    "place_id": "3623096087",
+    "annotated_source_executed_in_game": false,
+    "actual_game_function_tests_completed": 0,
+    "result": "NOT_RUN",
+    "scope": "The game was identified, but this local reconstructed source has not been executed in a real game session."
+  },
+  "code_observations": [
+    {
+      "function": "unresolvedAuraNameLookup",
+      "observation": "Returns nil; formatAuraCounts uses its return value in string.format. Preserved from v3; no original-author source is available to resolve intent."
+    },
+    {
+      "function": "checkBossPresence",
+      "observation": "The model branch contains flag = flag or true, so a false health comparison becomes true. Preserved; not a strict alive check."
+    }
+  ],
+  "limitations": [
+    "Local names and all Chinese comments are reconstructed, not recovered original author text.",
+    "265 renamed bindings retain explicitly neutral technical names because their business role is uncertain.",
+    "External WindUI still uses the original latest release URL. Its actual live behavior was not exercised.",
+    "Field keys, global names, strings, remote calls and control flow are unchanged by the annotation pass.",
+    "AST comparison excludes locations and function debug names; names in debugging output may change.",
+    "The upstream Blank-Hub loader fetches upstream code and does not load this local annotated file."
+  ],
+  "source_file": "Muscle-Legends.luau"
+}

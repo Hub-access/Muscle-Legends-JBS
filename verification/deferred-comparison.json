@@ -1,0 +1,6 @@
+{
+  "equal_after_documented_normalization": true,
+  "old_lines": 23939,
+  "new_lines": 23939,
+  "normalization": "Drop proto annotations; normalize VM error wrappers/line numbers and logger-generated connection, descendant, Folder, HttpService, RunService suffixes; omit a redundant RunService local declaration. All operations and error messages retained."
+}

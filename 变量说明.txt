@@ -1,0 +1,40 @@
+主要变量及函数说明
+
+这些是重建名称，不是作者原命名。行号对应 Muscle-Legends.luau。
+
+mainWindow（第 58 行）：WindUI 主窗口。
+windowOptions（第 67 行）：窗口创建参数。
+playerReference（第 156 行）：本地玩家引用。
+getRootPart（第 156 行）：取得本地角色根部件。
+teleportToCFrame（第 156 行）：清零速度后设置角色位置。
+tapKey（第 156 行）：短按指定按键。
+sharedCells（第 26 行）：保持闭包可变状态的共享单元，编号会复用。
+petNameTranslations（第 281 行）：宠物英文名称到中文显示名的映射。
+translatePetName（第 376 行）：查找宠物中文名称，未命中时返回原名。
+formatStatNumber（第 393 行）：统计数值缩写。
+countNamedChildren（第 438 行）：统计同名直属子对象。
+countPlayerConsumables（第 457 行）：统计玩家消耗品。
+formatPlayerConsumables（第 539 行）：生成消耗品数量文本。
+playerSettings（第 571 行）：体型、移动速度和视野设置。
+giftRecipientDropdown（第 757 行）：赠送目标选择框。
+movementProtectionSettings（第 1068 行）：防击飞与位置锁设置。
+selfStatsParagraph（第 1483 行）：自身统计数据显示段落。
+otherStatsParagraph（第 1542 行）：选中玩家的统计显示段落。
+exerciseToolNames（第 1985 行）：训练显示名与工具名映射。
+equipmentRegions（第 3585 行）：器材地区及坐标配置。
+crystalNamesByLabel（第 4129 行）：水晶显示名到内部名称映射。
+petShopCatalog（第 4223 行）：宠物/光环商店分类配置。
+createPetShopSection（第 4521 行）：生成单个商店分类区域。
+hasLivingCharacter（第 4679 行）：检查目标角色存活且存在根部件。
+hasSpawnProtection（第 4706 行）：检查出生保护。
+targetNameLists（第 4655 行）：白名单和指定目标名称列表。
+parsePositionText（第 5679 行）：把坐标文本解析成 Vector3。
+teleportPresets（第 5793 行）：固定坐标列表。
+makeResumableIterator（第 12 行）：保留泛型迭代语义的重建辅助。
+unresolvedAuraNameLookup（第 385 行）：用途有疑点：当前仅返回 nil。
+checkBossPresence（第 2523 行）：BOSS 目标存在性检查，有已标注的布尔表达式疑点。
+
+完整的 1158 项映射及依据见 变量命名映射.json。
+
+保留字段解释：wl=白名单，bl=指定目标名单；ka/kb 对应两类目标循环的原状态字段。
+外部字段、对象名称、字符串均未因变量命名而修改。

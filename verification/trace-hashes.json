@@ -1,0 +1,14 @@
+{
+  "immediate": {
+    "reference_raw_sha256": "7b2d5a77c38dc077cf977b58d7134cc311f453f03c44437f6b50a0b8aad5d49b",
+    "candidate_raw_sha256": "300051c9fceb83cb408ec9087725c67edfde2812e262e49a4632aae0bd6bb470",
+    "normalized_sha256": "9aba26cdd0cc38a6f354a9ee915c1a31dc45dac56cd5f620c3f5a961d3c8700f",
+    "equal": true
+  },
+  "deferred": {
+    "reference_raw_sha256": "99141e8f6751ebf1bc52e01a12ec5fc0a3f94c984690118efc4cfde4ce3f1cfc",
+    "candidate_raw_sha256": "9d83bbe7c54a8393771b0b8d4a490612da0aadc6f11171b86a58aab4e050a23e",
+    "normalized_sha256": "c4d8b3c9e632d735d2a9229fcd58eff7521c9cb17072c66253947508699f559c",
+    "equal": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.luau": "lua"
+  },
+  "editor.wordWrap": "on"
+}
