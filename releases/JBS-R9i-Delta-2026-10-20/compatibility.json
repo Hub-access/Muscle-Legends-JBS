@@ -1,0 +1,47 @@
+{
+  "sourceSHA256": "5306e595994f48934751003d477f0576b1e2d573dec7d9a67a9eb65b4fe7953c",
+  "originalR9iSHA256": "27d53d319439b604ff9bc949e0286b7cb03188a197e1f1a1836090eb3bd9c0bf",
+  "otherFunctionBytesUnchanged": 153895,
+  "otherFunctionSHA256": "9754380283d36f28bddc7ecd64aac19b2e996b1eca10b34ec16c98917359ec21",
+  "pacingUnchanged": true,
+  "androidDeviceTests": 0,
+  "fpsCapCallsAdded": 0,
+  "change": "Bound asynchronous native-module loading to two seconds; cancel stale confirmations and restore original tool before fallback.",
+  "target": "Android Delta",
+  "deltaVersionVerified": null,
+  "offlineChecks": {
+    "lifecycle": 31,
+    "originalToolRegression": 18,
+    "pacingAndFallback": 48,
+    "fullSourceIntegration": 53,
+    "total": 150,
+    "includesPredecessorBugReproductions": 2,
+    "mockOnly": true
+  },
+  "macOSRegression": {
+    "platform": "macOS Opiumware",
+    "nativeConfirmed": true,
+    "toolFallback": false,
+    "originalToolRestored": true,
+    "adapterInactive": true,
+    "controllerInactive": true,
+    "fpsCapBefore": 119.99999999999997,
+    "fpsCapAfter": 119.99999999999997,
+    "enabledSeconds": 8.00362866697833,
+    "passed": true
+  },
+  "macOSFullSourceStartup": {
+    "gameState": "running",
+    "platform": "macOS Opiumware",
+    "test": "unmodified compatibility source full startup",
+    "guiPresent": true,
+    "passed": true,
+    "androidDevice": false
+  },
+  "rebirthCountUnchanged": true,
+  "otherFeatureFlagsUnchanged": true,
+  "androidPerformanceMeasured": false,
+  "originalMacBenchmark": "../JBS-R9i-2026-10-20/",
+  "officialDeltaPageChecked": "https://deltaexploits.gg/delta-executor-android",
+  "compatibilityClaim": "Source-level compatibility fixes, offline regression, and Mac startup/training regression completed. Android Delta device execution is not verified."
+}
